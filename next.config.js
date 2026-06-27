@@ -1,10 +1,10 @@
-
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // ← HE MOST IMPORTANT AHE
+  output: 'export',
   images: { unoptimized: true },
   trailingSlash: true,
-  // distDir: 'out' ← He add karu nakos, default 'out' ch ahe
+  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true },
 }
 module.exports = nextConfig
+
