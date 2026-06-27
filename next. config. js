@@ -1,6 +1,0 @@
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',  // Hech 'next export' cha new version ahe
-}
-module.exports = nextConfig
