@@ -1,10 +1,10 @@
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export',           // ← Ahe ka?
+  trailingSlash: true,        // ← HE MOST IMPORTANT FOR 404
   images: { unoptimized: true },
-  trailingSlash: true,
-  typescript: { ignoreBuildErrors: true },
-  eslint: { ignoreDuringBuilds: true },
 }
 module.exports = nextConfig
 
