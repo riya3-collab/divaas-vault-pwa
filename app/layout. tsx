@@ -1,6 +1,7 @@
-'use client';  // ← HE PAN ADD KAR
+'use client';  // ← HE PAN LAGEL
 
-// ...baki cha code
+export default function RootLayout() {
+// ...baki code
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
