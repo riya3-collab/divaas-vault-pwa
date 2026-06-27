@@ -1,10 +1,9 @@
-
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',           // ← Ahe ka?
-  trailingSlash: true,        // ← HE MOST IMPORTANT FOR 404
+  output: 'export',
+  trailingSlash: true,  // ← HE LINE NASLYAS 404 YENAR CH
   images: { unoptimized: true },
 }
 module.exports = nextConfig
+
 
