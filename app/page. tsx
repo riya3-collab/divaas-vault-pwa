@@ -1,4 +1,7 @@
-'use client';
+'use client';  // ← HE NASEL TAR `out` folder banarch nahi
+
+import { useState } from 'react';
+// ...baki code
 
 import { useState, useCallback } from 'react';
 
